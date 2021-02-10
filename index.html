@@ -2,13 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Esta pagina muestra fotos de gatos">
+    <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Es para que el sitio sea responsive-->
+    <link rel="stylesheet" href="./css/style.css"><!--Para trabajar con css-->
+    <title>Es mi pagina</title>
 </head>
-<body>
-    <p> 
-        Este es mi primer sitio web,vamo a darle
-    </p>
+<body><!-- Exiten 2 tipos de etiquetas: contenedoras y de contenido-->
+    <header> <!-- Encabezado de la pagina-->
+        <nav> </nav> <!-- Barra de navegacion para la pagina-->
+        <h1>Lista del super</h1>
+    </header> 
+    <main> <!--Es la parte central de la pagina-->
+        <ul><!-- Lista desordenada-->
+            <li>Frutas</li>
+                <ol>
+                    <li> Manzana🍎</li>
+                    <img src="./css/Manzana.jpg" alt="Es una manzana">
+                    <li>Piña🍍</li>
+                    <li>Pera🍐</li>
+                </ol>
+            <li>Carnes</li>
+                <ol>
+                    <li>Res🥩</li>
+                    <li>Pollo🍗</li>
+                    <li>Chancho🥓</li>
+                </ol>
+            <li>Veduras</li>
+                <ol>
+                    <li>Zanahoria🥕</li>
+                    <li>Pepino🥒</li>
+                    <li>Brocolí🥦</li>
+                </ol>
+        </ul>
+    </main>
+    <footer><!-- Pie de pagina -->
+        <a href="https://www.youtube.com/watch?v=R0OHR6F1NpI&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMNEdyRGXyYpk&index=9" target="_blank">
+            Esta es la receta a seguir</a><!--Nos permite generar hipervinculos-->
+    </footer>
 </body>
 </html>
